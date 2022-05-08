@@ -1,5 +1,7 @@
 # JavaScript-Note
 <br>
-🏷 Comment
-<br>
-JavaScript 정리 노트 입니다.
+
+🏷 <b>Comment</b>
+<ul>
+  <li>영화 목록 페이지 구현 입니다.</li>
+</ul>
