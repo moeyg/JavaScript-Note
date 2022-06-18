@@ -1,5 +1,5 @@
 # JavaScript-Note
-<img src="https://ko.wikipedia.org/wiki/ECMA%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8#/media/%ED%8C%8C%EC%9D%BC:Unofficial_JavaScript_logo_2.svg" width="500px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/280px-Unofficial_JavaScript_logo_2.svg.png" width="500px" />
 
 <br>
 
