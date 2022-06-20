@@ -1,5 +1,4 @@
 // 매개 변수의 기본값은 무조건 undefined
-
 // arguments : 매개 변수의 정보는 함수 내부에서 접근이 가능한 arguments 객체에 저장됨
 function add1(a, b) {
   console.log(a); // 1
