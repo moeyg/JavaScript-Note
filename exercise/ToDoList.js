@@ -1,4 +1,4 @@
-let input = prompt('What would you like to do?');
+let input = prompt('✅ What would you like to do?');
 const todos = [];
 
 while (input !== 'quit' && input !== 'q') {
@@ -9,11 +9,11 @@ while (input !== 'quit' && input !== 'q') {
     }
     console.log('***********************');
   } else if (input === 'new') {
-    const newTodo = prompt('What is the new to do?');
+    const newTodo = prompt('📝 What is the new to do?');
     todos.push(newTodo);
     console.log(`📝 NEW TODO : ${newTodo}`);
   } else if (input === 'delete') {
-    const deleteIndex = parseInt(prompt('Enter an index to delete'));
+    const deleteIndex = parseInt(prompt('🗑 Enter an index to delete'));
     if (!Number.isNaN) {
       const deletedTodo = todos.splice(deleteIndex, 1);
       console.log(`🗑 DELETE TODO : ${deletedTodo}`);
