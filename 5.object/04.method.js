@@ -10,3 +10,21 @@ const apple = {
 };
 
 apple.display(); // 사과: 🍎
+
+const myMath = {
+  PI: 3.14,
+  add(num1, num2) {
+    console.log(num1 + num2);
+  },
+  square(num) {
+    console.log(num * num);
+  },
+  cube(num) {
+    console.log(num ** 3);
+  },
+};
+
+console.log(myMath.PI); // 3.14
+myMath.add(2, 5); // 7
+myMath.square(7); // 49
+myMath.cube(8); // 512
