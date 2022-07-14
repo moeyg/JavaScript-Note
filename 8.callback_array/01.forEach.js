@@ -1,6 +1,6 @@
 // forEach
 // 주어진 함수를 배열 요소 각각에 대해 실행한다.
-// 주로 array.forEach(function () {}) 형태로 내부에 함수가 들어간다.
+// array.forEach(function () {})
 
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
