@@ -62,7 +62,15 @@ console.log(newMovies); // false
 let highScoreMovies = movies.every((movie) => movie.score > 8.0);
 console.log(highScoreMovies); // true
 
+///////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////
+
 // 배열의 모든 요소가 짝수이면 true를 반환하는 함수
 function evenNumber(arr) {
   return arr.every((num) => num % 2 === 0);
+}
+
+// 배열의 요소 중 홀수가 있으면 true를 반환하는 함수
+function oddNumber(arr) {
+  return arr.some((num) => num % 2 === 1);
 }
