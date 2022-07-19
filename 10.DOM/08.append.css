@@ -1,0 +1,23 @@
+.image {
+  height: 300px;
+  width: 500px;
+}
+
+.link {
+  font-weight: 800;
+  font-size: 20px;
+  text-decoration: none;
+  color: tomato;
+}
+
+.none {
+  display: none;
+}
+
+li {
+  color: teal;
+}
+
+#bold {
+  font-size: 50px;
+}
