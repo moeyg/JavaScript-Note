@@ -23,7 +23,7 @@ console.log(p.textContent);
 
 // 조작하기
 const allLinks = document.querySelectorAll('a');
-for (link of allLinks) {
+for (let link of allLinks) {
   link.innerText = '🔗 LINK!';
 }
 // Lorem Lorem ipsum, dolor 🔗 LINK! amet dignissimos possimus 🔗 LINK! consequatur, tenetur fugiat sint, 🔗 LINK! sunt.
