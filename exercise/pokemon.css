@@ -1,0 +1,19 @@
+header {
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+header #title {
+  width: 300px;
+}
+
+.monsterball {
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.monsterball .pokemon {
+  display: block;
+}
