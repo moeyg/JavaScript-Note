@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./searchTVShow.js" defer></script>
+    <style>
+      form {
+        margin: 50px 0;
+      }
+      form input {
+        width: 300px;
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid gray;
+      }
+      button {
+        background-color: teal;
+        color: aliceblue;
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+      }
+    </style>
+    <title>Search for TV Show</title>
+  </head>
+  <body>
+    <h1>Search for TV Show</h1>
+    <form id="searchForm">
+      <input type="text" id="query" placeholder="TV Show title" />
+      <button>Search</button>
+    </form>
+  </body>
+</html>
